@@ -20,4 +20,5 @@ function iLoveTheBeatles(cutoff) {
     output.unshift("I love the Beatles!");
     cutoff++
   } while (cutoff <15);
+  return output
 }
