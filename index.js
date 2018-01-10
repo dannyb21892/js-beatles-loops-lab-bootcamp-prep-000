@@ -5,3 +5,19 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return whoplayswhat
 }
+
+function johnLennonFacts(facts) {
+  var output = [];
+  while (facts.length > 0) {
+    output.unshift(`${facts.pop()}!!!`)
+  }
+  return output
+}
+
+function iLoveTheBeatles(cutoff) {
+  var output = [];
+  do {
+    output.unshift("I love the Beatles!");
+    cutoff++
+  } while (cutoff <15);
+}
